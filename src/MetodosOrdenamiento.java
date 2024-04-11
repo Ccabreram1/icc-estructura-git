@@ -1,6 +1,6 @@
 public class MetodosOrdenamiento {
     //1. Metodo que devuelve un arreglo de enteros ordenados por Burbuja 
-    public int[] sortByBubnle(int[]arreglo,boolean longs){
+    public int[] sortByBubble(int[]arreglo,boolean longs){
         ///Code to sort 
         /// Obtener el tamaño del arreglo
         int tamano = arreglo.length;
@@ -28,6 +28,7 @@ public class MetodosOrdenamiento {
                     arreglo[j]=temporal;
 
                     if (longs) {
+
                         System.out.print(" ");
                         imprime(arreglo);
                     }
